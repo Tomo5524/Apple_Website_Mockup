@@ -1,0 +1,285 @@
+/*body, html{
+	height: 100%;
+	width: 100%;
+}*/
+
+/*article{
+	width: 95%;
+	margin: 0 auto;
+}*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%;
+	font: inherit; */
+	/*vertical-align: baseline;*/
+}
+
+body{
+	color: #6e6e6e;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+	/*width: 80%;
+	margin: 0 auto;*/
+	/*border:1px solid red;*/
+}
+
+.image-container{
+	/*width: 100%;*/
+	height: 630px;
+	/*margin: 0 auto;*/
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	/*what position does?*/
+	background-position: bottom center;
+	/*background-size: 1440px 1315px*/
+
+}
+.nav-container{
+	height: 30%;
+}
+
+nav{
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+	background: -o-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -o-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), no-repeat 50% 50%, -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%),  no-repeat 50% 50%, -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+
+	position: relative;
+    top: 70px;
+    width: 980px;
+    height: 38px;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns: repeat(8, 1fr) 140px;
+	grid-template-rows: 1fr;
+
+}
+
+.nav{
+	border-width: 0 2px 0 1px;
+    border-style: solid;
+    border-radius: 4px
+}
+
+.nav-item1{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 3px;
+
+}
+
+.nav-item2{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -25px;
+}
+
+.nav-item3{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -55px;
+}
+
+.nav-item4{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -85px;
+}
+
+.nav-item5{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -115px;
+}
+.nav-item6{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -145px;
+}
+
+.nav-item7{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -175px;
+}
+
+.nav-item8{
+	background-image: url(../images/globalnav_text.svg);
+	background-repeat: no-repeat;
+	background-position: 50% -205px;
+}
+
+.nav-item9{
+	width: 70%;
+	height: 50%;
+	justify-content: center;
+	margin:auto;
+	border-radius: 10px;
+	border:1px solid rgba(0, 0, 0, .2);
+	padding:0 10px;
+}
+
+#search{
+	position: relative;
+	left: -8px;
+	top:2px;	
+	color: white;
+	font-size: 18px;
+}
+
+.text-container{
+	height: 70%;
+}
+
+.text-img{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.text1{
+	background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 800px;
+    max-width: 980px;
+    height: 96px;
+	background-image: url(../images/your_verse_title_small.png);
+	
+}
+
+.text2{
+	width: 980px;
+	height: 82px;
+	background-image: url(../images/your_verse_subhead_small.png);
+	background-position: center center;	
+	
+}
+
+.text3{
+	margin-top: 25px;
+    background-image: url(../images/cta_your_verse_27pt.png);
+    background-repeat: no-repeat;
+    background-position: 0 -2px;
+    min-width: 800px;
+    max-width: 980px;
+    height: 30px;
+}
+
+.pic-list{
+	width: 100%;
+	height: auto;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.pics{
+	min-width: 360px;
+	
+	min-height: 200px;
+	background-repeat: no-repeat;
+	/*background-position: bottom center;*/
+}
+
+
+.pic1{
+	background-image: url(../images/promo_iphone5s.jpg);
+	
+}
+
+.pic2{
+	background-image: url(../images/promo_iphone5c.jpg);
+}
+
+.pic3{
+	background-image: url(../images/promo_30_years.jpg);
+}
+
+.pic4{
+	background-image: url(../images/promo_supplier_responsibility.jpg);
+}
+
+.footer-container{
+	margin: 0 auto;
+    width: 980px;
+    /*padding: 1em 0 2.6em;*/
+}
+
+.firstrow{
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+	/*vertical-align: center;*/
+}
+
+.footerItem{
+	align-items: center;
+	padding-top: 1.5em;
+	min-width: 200px;
+}
+
+.footerItem a, p{
+    font-size: 10px;
+    line-height: 1.2;
+
+}
+
+a{
+	color: #0088CC;
+}
+
+.border{
+	margin-left: .6em;
+    padding-left: .6em;
+    border-left: 1px solid #ccc;
+}
+
+#right{
+	justify-content: flex-start;
+	margin-left: 40px;
+}
+
+.secondRow{
+	padding-top: 10px;
+}
+
+#usa-icon{
+	height: 16px;
+	width: 16px;
+    padding-left: .6em;
+
+}
