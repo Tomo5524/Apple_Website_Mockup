@@ -87,6 +87,10 @@ nav{
     border-radius: 4px
 }
 
+.nav div:hover{
+	background-color: #333;
+}
+
 .nav-item1{
 	background-image: url(../images/globalnav_text.svg);
 	background-repeat: no-repeat;
